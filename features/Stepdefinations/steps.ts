@@ -5,8 +5,6 @@ let browser: Browser;
 let page: Page;
 let basepage: BasePage;
 
-
-
 Given('I open the Abhibus website', async function () {
     browser = await chromium.launch();
     const context = await browser.newContext();
