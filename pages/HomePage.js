@@ -9,11 +9,11 @@ class HomePage {
     this.toStation = page.getByPlaceholder('To Station');
     this.onwardJourneyDate = page.getByPlaceholder('Onward Journey Date');
     this.searchButton = page.locator('#search-button');
-    this.resultText = page.getByText('Showing 29 Buses on this route');
+    this.resultText = page.getByText('Showing 30 Buses on this route');
     this.busPartner = page.getByText('Bus Partner');
     this.firstCheckbox = page.locator('div[class="container checkbox-container  md "]').nth(1);
     this.secondCheckbox = page.locator('div[class="container checkbox-container  md "]').nth(2);
-    this.filteredResultText = page.getByText('Showing 3 Buses on this route');
+    this.filteredResultText = page.getByText('Showing 4 Buses on this route');
     this.agentName = page.locator('#service-operator-agent-name-2085709700');
     this.departureTime = page.getByText('19:30');
     this.arrivalTime = page.getByText('07:30');
